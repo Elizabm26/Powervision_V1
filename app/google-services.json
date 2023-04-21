@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "681556615605",
+    "project_id": "powervision-49386",
+    "storage_bucket": "powervision-49386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681556615605:android:6cb42fa0ebd279240d79fc",
+        "android_client_info": {
+          "package_name": "com.example.powervision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681556615605-5fc75h09udv6v52d70pggeib0p63fsus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWLGSwtsw8mINEvMCfm2hUF3afGPnNdxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681556615605-5fc75h09udv6v52d70pggeib0p63fsus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

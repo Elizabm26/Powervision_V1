@@ -33,6 +33,7 @@
         android:textColor="#FF6600"
         android:textSize="35dp"
         android:textStyle="bold" />
+
     <EditText
         android:id="@+id/cedula"
         android:layout_width="match_parent"
@@ -46,10 +47,11 @@
         android:drawableLeft="@drawable/ic_cedula"
         android:drawablePadding="20dp"
         android:hint="Cedula"
+        android:inputType="number"
         android:padding="15dp"
-        android:textColor="#FF6600"
-        android:textStyle="bold"
-        android:textColorHint="@color/white"/>
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
     <EditText
         android:id="@+id/name"
         android:layout_width="match_parent"
@@ -101,29 +103,12 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textColorHint="@color/white"/>
-    <EditText
-        android:id="@+id/ciudad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/pais"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="5dp"
-        android:background="#A6656060"
-        android:drawableLeft="@drawable/ic_city"
-        android:drawablePadding="20dp"
-        android:textStyle="bold"
-        android:hint="Ciudad"
-        android:inputType="textPassword"
-        android:padding="15dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnsiguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ciudad"
+        android:layout_below="@id/pais"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="100dp"
         android:layout_marginTop="30dp"
