@@ -13,10 +13,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="0dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="600dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="500dp"
         android:gravity="center"
         android:src="@drawable/powervision" />
 
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="10dp"
         android:gravity="center"
@@ -85,7 +85,7 @@
         android:textStyle="bold"
         android:textColorHint="@color/white"/>
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/pais"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/apellido"
@@ -94,84 +94,43 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="5dp"
         android:background="#A6656060"
-        android:drawableLeft="@drawable/ic_email"
+        android:drawableLeft="@drawable/ic_city"
         android:drawablePadding="20dp"
-        android:hint="Email"
+        android:hint="País"
         android:padding="15dp"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textColorHint="@color/white"/>
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/ciudad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/email"
+        android:layout_below="@id/pais"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="5dp"
         android:background="#A6656060"
-        android:drawableLeft="@drawable/ic_pass"
+        android:drawableLeft="@drawable/ic_city"
         android:drawablePadding="20dp"
         android:textStyle="bold"
-        android:hint="Password"
+        android:hint="Ciudad"
         android:inputType="textPassword"
         android:padding="15dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
-    <RadioGroup
-        android:id="@+id/rol"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/password">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Elegir rol "
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="5dp"/>
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="5dp"
-            android:text="Consumo"
-            android:textColor="@color/white"
-            android:background="#A6656060"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="10dp"
-            android:background="#A6656060"
-            android:layout_marginBottom="5dp"
-            android:text="Libre"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
-
-    </RadioGroup>
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnsingup"
+        android:id="@+id/btnsiguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rol"
+        android:layout_below="@id/ciudad"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
         android:backgroundTint="#ff6600"
-        android:text="Sing up" />
-
+        android:text="@string/siguiente"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_siguiente"/>
 </RelativeLayout>

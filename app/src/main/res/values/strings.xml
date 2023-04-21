@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Powervision</string>
+    <string name="sign_in">Sign in</string>
+    <string name="siguiente">Siguiente</string>
 </resources>
